@@ -48,6 +48,7 @@ nav {
   background-image: url(images/zelda-banner.jpg);
   display: flex;
   justify-content: center;
+  position: fixed;
 }
 
 .navbar-container {
@@ -77,7 +78,7 @@ nav img {
 main {
   /* border: 1px solid green; */
   background-color: #1b2e40;
-  height: 33rem;
+  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -134,7 +135,7 @@ main figure:hover {
 /* ------------------------------- BANNER SECTION ------------------------------- */
 .banner-de-4 {
   /* border: 2px solid green; */
-  height: 20rem;
+  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -194,7 +195,7 @@ main figure:hover {
 .about-section {
   /* border: 1px solid red; */
   width: 100vw;
-  height: 25rem;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,7 +259,7 @@ main figure:hover {
 .three-circle-img {
   /* border: 1px solid green; */
   width: 100vw;
-  height: 25rem;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -313,7 +314,7 @@ main figure:hover {
 .buy-banner {
   /* border: 1px solid red; */
   width: 100vw;
-  height: 34rem;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -372,7 +373,7 @@ main figure:hover {
 
 .creators-section {
   /* border: 1px solid green; */
-  height: 33rem;
+  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -430,7 +431,7 @@ main figure:hover {
 
 .nintendo-section {
   /* border: 1px solid yellow; */
-  height: 33rem;
+  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -464,7 +465,7 @@ main figure:hover {
 .form-section {
   /* border: 1px solid red; */
   width: 100vw;
-  height: 30rem;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -472,7 +473,8 @@ main figure:hover {
 
 .registration-container {
   /* border: 1px solid green; */
-  background-color: #7db8f3;
+  background-image: url(images/the-legend-of-zelda-wallpaper.webp);
+  background-size: 80%;
   width: 100vw;
   height: 25rem;
   display: flex;
@@ -547,7 +549,7 @@ main figure:hover {
   width: 90vw;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 footer .footer-icons {
