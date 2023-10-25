@@ -479,12 +479,13 @@ main figure:hover {
   height: 25rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .moved-container {
   /* border: 1px solid yellow; */
   width: 90vw;
-  height: 23rem;
+  height: 34rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -493,9 +494,10 @@ main figure:hover {
 
 .moved-container header {
   /* border: 1px solid black; */
+  height: 14rem;
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
+  align-self: center;
   gap: 2rem;
 }
 
