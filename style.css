@@ -45,7 +45,10 @@ button:hover {
 nav {
   /* border: 1px solid yellow; */
   width: 100vw;
-  background-image: url(images/zelda-banner.jpg);
+  /* background-image: url(images/zelda-banner.jpg); */
+  background: rgba(160, 157, 157, 0.125);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   display: flex;
   justify-content: center;
   position: fixed;
@@ -62,6 +65,17 @@ nav {
 
 nav a {
   text-decoration: none;
+  color: #000000;
+  width: 700;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: rgb(80, 212, 212);
+}
+
+nav a img:hover {
+  transform: scale(1.05);
 }
 
 .navbar-menu {
@@ -526,7 +540,12 @@ main figure:hover {
   width: 44vw;
   height: 2.5rem;
   border-radius: 8px;
-  border: white;
+  border: 0 white;
+  color: black;
+}
+
+.form-container input:focus {
+  outline-color: #7db8f3;
 }
 
 .form-container input::placeholder {
